@@ -15,6 +15,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Eshaan Singh",
   description: "AI Engineer and Full-Stack Developer based in Seattle, WA.",
+  icons: {
+    icon: '/TrimStream.jpg',
+  },
 };
 
 export default function RootLayout({
