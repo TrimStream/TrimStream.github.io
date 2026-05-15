@@ -58,6 +58,7 @@ export default function Home() {
             Contact
           </a>
         </div>
+        <div className="hero-scroll">↓ scroll</div>
       </section>
       <section className="section" id="projects">
         <div className="container">
