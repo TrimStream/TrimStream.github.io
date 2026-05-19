@@ -84,9 +84,9 @@ export default function Home() {
                 <span className="tech-tag orange">Gemini AI</span>
                 <span className="tech-tag orange">React</span>
               </div>
-              <a href="https://eshaan-finsight.vercel.app" target="_blank" className="project-link">
+              <a href="https://eshaan-finsight.vercel.app" target="_blank" className="project-link" style={{marginRight: '16px'}}>
                 Live Demo →
-              </a> <br>
+              </a>
               <a href="https://github.com/TrimStream/FinSight" target="_blank" className="project-link">
                 View on GitHub →
               </a>
