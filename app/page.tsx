@@ -84,6 +84,9 @@ export default function Home() {
                 <span className="tech-tag orange">Gemini AI</span>
                 <span className="tech-tag orange">React</span>
               </div>
+              <a href="https://eshaan-finsight.vercel.app" target="_blank" className="project-link">
+                Live Demo →
+              </a>
               <a href="https://github.com/TrimStream/FinSight" target="_blank" className="project-link">
                 View on GitHub →
               </a>
@@ -101,7 +104,7 @@ export default function Home() {
                 <span className="tech-tag blue">TypeScript</span>
                 <span className="tech-tag blue">Python</span>
                 <span className="tech-tag blue">FastAPI</span>
-                <span className="tech-tag blue">OpenAI API</span>
+                <span className="tech-tag blue">Gemini API</span>
                 <span className="tech-tag blue">React</span>
               </div>
               <a href="https://github.com/TrimStream/MarketMind" target="_blank" className="project-link">
