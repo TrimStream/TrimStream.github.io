@@ -86,7 +86,7 @@ export default function Home() {
               </div>
               <a href="https://eshaan-finsight.vercel.app" target="_blank" className="project-link">
                 Live Demo →
-              </a>
+              </a> <br>
               <a href="https://github.com/TrimStream/FinSight" target="_blank" className="project-link">
                 View on GitHub →
               </a>
