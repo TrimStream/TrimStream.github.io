@@ -92,8 +92,31 @@ export default function Home() {
               </a>
             </div>
 
-            <div className="project-card blue">
+            <div className="project-card purple">
               <p className="project-number">02</p>
+              <h3 className="project-title">TrainingARK</h3>
+              <p className="project-subtitle">Interactive cEDH Training Simulator</p>
+              <p className="project-description">
+                Full-stack training platform for competitive Commander (cEDH). Features a live 4-player board with real Magic card images, step-based scenario narration, decision points with quality evaluation (best/ok/blunder), JWT authentication, MongoDB Atlas for scenario and user data, and a visual scenario builder.
+              </p>
+              <div className="tech-tags">
+                <span className="tech-tag purple">React</span>
+                <span className="tech-tag purple">TypeScript</span>
+                <span className="tech-tag purple">Python</span>
+                <span className="tech-tag purple">FastAPI</span>
+                <span className="tech-tag purple">MongoDB</span>
+                <span className="tech-tag purple">JWT</span>
+              </div>
+              <a href="https://trainingark.vercel.app" target="_blank" className="project-link" style={{marginRight: '16px'}}>
+                Live Demo →
+              </a>
+              <a href="https://github.com/TrimStream/TrainingARK" target="_blank" className="project-link">
+                View on GitHub →
+              </a>
+            </div>
+
+            <div className="project-card blue">
+              <p className="project-number">03</p>
               <h3 className="project-title">MarketMind</h3>
               <p className="project-subtitle">AI-Powered Consumer Insight Generator</p>
               <p className="project-description">
@@ -113,7 +136,7 @@ export default function Home() {
             </div>
 
             <div className="project-card green">
-              <p className="project-number">03</p>
+              <p className="project-number">04</p>
               <h3 className="project-title">SentiPulse</h3>
               <p className="project-subtitle">Real-Time Social Sentiment Tracker</p>
               <p className="project-description">
@@ -131,6 +154,7 @@ export default function Home() {
                 View on GitHub →
               </a>
             </div>
+
           </div>
         </div>
       </section>
@@ -157,7 +181,7 @@ export default function Home() {
               <div className="skill-category-icon">⚙️</div>
               <h3>Frameworks & Tools</h3>
               <div className="skill-tags">
-                {['React.js', 'Next.js', 'FastAPI', 'Node.js', 'Django', 'REST APIs', 'WebSockets', 'PostgreSQL', 'Docker'].map(skill => (
+                {['React.js', 'Next.js', 'FastAPI', 'Node.js', 'Django', 'REST APIs', 'WebSockets', 'PostgreSQL', 'MongoDB', 'Docker'].map(skill => (
                   <span key={skill} className="skill-tag">{skill}</span>
                 ))}
               </div>
