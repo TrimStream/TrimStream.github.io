@@ -1,22 +1,31 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Inter, DM_Mono } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const inter = Inter({
+  variable: "--font-inter",
   subsets: ["latin"],
+  display: "swap",
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const dmMono = DM_Mono({
+  variable: "--font-dm-mono",
+  weight: ["400", "500"],
   subsets: ["latin"],
+  display: "swap",
 });
 
 export const metadata: Metadata = {
-  title: "Eshaan Singh",
-  description: "AI Engineer and Full-Stack Developer based in Seattle, WA.",
+  title: "Eshaan Singh — Software Engineer",
+  description: "Software Engineer based in Bellevue, WA. React, Python, FastAPI.",
+  openGraph: {
+    title: "Eshaan Singh — Software Engineer",
+    description: "Software Engineer based in Bellevue, WA. React, Python, FastAPI.",
+    url: "https://trimstream.github.io",
+    type: "website",
+  },
   icons: {
-    icon: '/TrimStream.jpg',
+    icon: "/TrimStream.jpg",
   },
 };
 
@@ -26,7 +35,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${geistSans.variable} ${geistMono.variable}`}>
+    <html lang="en" className={`${inter.variable} ${dmMono.variable}`}>
       <body>{children}</body>
     </html>
   );
