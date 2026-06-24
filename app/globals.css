@@ -17,9 +17,7 @@
   padding: 0;
 }
 
-html {
-  scroll-behavior: smooth;
-}
+html { scroll-behavior: smooth; }
 
 body {
   background: var(--bg);
@@ -30,11 +28,9 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-a {
-  color: inherit;
-}
+a { color: inherit; }
 
-/* Nav */
+/* Nav — full width */
 .navbar {
   padding: 24px 48px;
   display: flex;
@@ -72,14 +68,17 @@ a {
   transition: color 0.2s;
 }
 
-.navbar-links a:hover {
-  color: var(--text);
+.navbar-links a:hover { color: var(--text); }
+
+/* Centered content wrapper */
+.content {
+  max-width: 960px;
+  margin: 0 auto;
 }
 
 /* Hero */
 .hero {
   padding: 96px 48px 80px;
-  max-width: 960px;
 }
 
 .hero h1 {
@@ -90,9 +89,7 @@ a {
   letter-spacing: -1.5px;
 }
 
-.hero h1 span {
-  color: var(--blue);
-}
+.hero h1 span { color: var(--blue); }
 
 .hero-sub {
   font-size: 14px;
@@ -126,7 +123,6 @@ a {
 .section {
   padding: 72px 48px;
   border-top: 1px solid var(--border);
-  max-width: 960px;
 }
 
 .section-label {
@@ -156,9 +152,7 @@ a {
   border-bottom: 1px solid var(--border-dim);
 }
 
-.project:first-of-type {
-  border-top: 1px solid var(--border-dim);
-}
+.project:first-of-type { border-top: 1px solid var(--border-dim); }
 
 .project-name {
   font-size: 20px;
@@ -216,17 +210,9 @@ a {
   transition: color 0.2s;
 }
 
-.project-links a:hover {
-  color: var(--blue);
-}
-
-.project-links a.link-primary {
-  color: var(--text);
-}
-
-.project-links a.link-primary:hover {
-  color: var(--blue);
-}
+.project-links a:hover { color: var(--blue); }
+.project-links a.link-primary { color: var(--text); }
+.project-links a.link-primary:hover { color: var(--blue); }
 
 /* Skills */
 .skills-grid {
@@ -265,9 +251,7 @@ a {
   text-decoration: none;
 }
 
-.footer a:hover {
-  color: var(--blue);
-}
+.footer a:hover { color: var(--blue); }
 
 /* Responsive */
 @media (max-width: 640px) {
