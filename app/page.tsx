@@ -65,20 +65,42 @@ export default function Home() {
             </div>
 
             <div className="project">
-              <div className="project-name">SentiPulse</div>
+              <div className="project-name">TrainingARK</div>
               <p className="project-desc">
-                Sentiment analysis dashboard. Text goes in, HuggingFace DistilBERT classifies it as positive, negative, or neutral with a confidence score. Results display as an interactive pie chart with a color-coded post feed.
+                Visual scenario builder for a 4-player card game. Manages state across 24 simultaneously tracked zones in real time, with a shared, stack-based resolution system and step-based scenario recording. Built primarily through daily collaboration with an AI coding agent, reviewing and rewriting every generated change.
               </p>
               <div className="project-footer">
                 <div className="tags">
                   <span className="tag">Next.js</span>
+                  <span className="tag">React</span>
                   <span className="tag">TypeScript</span>
-                  <span className="tag">Python</span>
-                  <span className="tag">FastAPI</span>
-                  <span className="tag">HuggingFace</span>
+                  <span className="tag">Zustand</span>
+                  <span className="tag">Prisma</span>
+                  <span className="tag">Supabase</span>
                 </div>
                 <div className="project-links">
-                  <a href="https://github.com/TrimStream/SentiPulse" target="_blank" rel="noopener">GitHub</a>
+                  <a href="https://github.com/TrimStream/TrainingARK" target="_blank" rel="noopener">GitHub</a>
+                </div>
+              </div>
+            </div>
+
+            <div className="project">
+              <div className="project-name">Mod the Agents</div>
+              <p className="project-desc">
+                Real-time multi-agent debate platform built for the Cerebras x Google DeepMind Gemma 4 Hackathon. Four agents with distinct perspectives contest any input in parallel, streamed live over SSE with token batching, plus a mid-debate human injection flow feeding a synthesis agent for a final verdict.
+              </p>
+              <div className="project-footer">
+                <div className="tags">
+                  <span className="tag">React</span>
+                  <span className="tag">TypeScript</span>
+                  <span className="tag">Vite</span>
+                  <span className="tag">Node.js</span>
+                  <span className="tag">Express</span>
+                  <span className="tag">Cerebras</span>
+                </div>
+                <div className="project-links">
+                  <a className="link-primary" href="https://mod-the-agents-front.onrender.com" target="_blank" rel="noopener">Live</a>
+                  <a href="https://github.com/TrimStream/mod-the-agents" target="_blank" rel="noopener">GitHub</a>
                 </div>
               </div>
             </div>
@@ -89,15 +111,15 @@ export default function Home() {
             <div className="skills-grid">
               <div>
                 <div className="skill-label">Frontend</div>
-                <div className="skill-items">React, Next.js, TypeScript, JavaScript, HTML/CSS, Tailwind, Recharts</div>
+                <div className="skill-items">React, Next.js, Vite, TypeScript, JavaScript, HTML/CSS, Tailwind, Zustand, Recharts</div>
               </div>
               <div>
                 <div className="skill-label">Backend</div>
-                <div className="skill-items">Python, FastAPI, Django, REST APIs</div>
+                <div className="skill-items">Python, Go, FastAPI, Django, Node.js, Express, REST APIs</div>
               </div>
               <div>
                 <div className="skill-label">Databases</div>
-                <div className="skill-items">PostgreSQL, SQL, MongoDB</div>
+                <div className="skill-items">PostgreSQL, Supabase, SQL, MongoDB</div>
               </div>
               <div>
                 <div className="skill-label">Tools</div>
@@ -105,7 +127,7 @@ export default function Home() {
               </div>
               <div>
                 <div className="skill-label">AI / ML</div>
-                <div className="skill-items">Google Gemini, HuggingFace, LLM Integration</div>
+                <div className="skill-items">Google Gemini, Cerebras, HuggingFace, LLM Integration</div>
               </div>
             </div>
           </section>
